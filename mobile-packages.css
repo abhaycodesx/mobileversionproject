@@ -1,0 +1,314 @@
+.packages-image{
+    background-image: url("./coffee.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.middle-div{
+    background-color: lightgreen;
+    color: darkgreen;
+    position: fixed;
+    vertical-align: middle;
+    width: 100vw;
+}
+
+.uhost-title > a{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.295rem;
+    font-style: italic;
+}
+
+.same-title{
+    float: right;
+    /*padding: 1.25rem;*/
+    max-width: 25.75rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.same-title > a{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.div-title{
+    text-decoration: none;
+}
+#div-title-id{
+    background-color: red;
+    color: white;
+}
+
+@media(min-width:24.125rem){
+    .same-title{
+        display: inline-block;
+       margin: 1rem;
+        font-size: 1.5rem;
+        
+    }
+}
+
+.packages-pus-plan{
+    border: 2px solid green;
+    border-left: none;
+    background-color: lightblue;
+    line-height: 2rem;
+    margin-right: 5rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-pus-plan{
+        background-color: yellow;
+        margin-right: 25rem;
+        
+    }
+}
+
+
+.packages-plus-heading{
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-plus-heading{
+        padding-left: 2rem;
+    }
+}
+
+.packages-plus-most{
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-plus-most{
+        padding-left: 2rem;
+    }
+}
+
+.packages-plus-benefits{
+    border: 2px solid white;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    background-color: white;
+    color: darkgreen;
+    font-size: 1rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-plus-benefits{
+        margin-right: 6rem;
+    }
+}
+
+.packages-plus-benefits:hover,
+.packages-plus-benefits:active{
+    background-color: darkgreen;
+    color: white;
+}
+
+.recommended-all{
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 12rem;
+    border: 1px solid darkgreen;
+    background-color: pink;
+    color: darkgreen;
+}
+
+.recommended-all:hover,
+.recommended-all:active{
+    background-color: chocolate;
+    color: blueviolet;
+    border-color: purple;
+}
+
+@media(min-width:24.125rem){
+    .recommended-all{
+        margin-top: 20rem;
+        margin-left: 60rem;
+    } 
+}
+
+.packages-pus-plan:hover,
+.packages-pus-plan:active{
+    border-color: purple;
+    background-color: yellow;
+}
+
+@media(min-width:24.125rem){
+    .packages-pus-plan:hover,
+    .packages-pus-plan:active{
+    border-color: yellow;
+    background-color: purple;
+}
+}
+
+.packages-free-plan{
+    border: 2px solid darkgreen;
+    margin-left: 5rem;
+    border-right: none;
+    line-height: 2rem;
+    background-color: lightgray;
+}
+
+@media(min-width:24.125rem){
+    .packages-free-plan{
+        margin-left: 20rem;
+        background-color: lightgreen;
+    }
+}
+
+.packages-free-heading{
+    font-size: 2rem;
+    color: darkgreen;
+}
+
+@media(min-width:24.125rem){
+    .packages-free-heading{
+        padding-left: 5rem;
+    }
+}
+
+.packages-free-host{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+@media(min-width:24.125rem){
+    .packages-free-host{
+        padding-left: 5rem;
+    }
+}
+
+.packages-free-zero{
+    border: 2px solid white;
+    background-color: white;
+    color: darkgreen;
+    margin-left: 2rem;
+    margin-right: 1rem;
+
+}
+
+@media(min-width:24.125rem){
+    .packages-free-zero{
+        margin-left: 5rem;
+        margin-right: 3rem;
+    }
+}
+
+.packages-free-plan:hover,
+.packages-free-plan:active{
+    border-color: chocolate;
+    background-color: aquamarine;
+}
+
+@media(min-width:24.125rem){
+    .packages-free-plan:hover,
+.packages-free-plan:active{
+    border-color: aquamarine;
+    background-color: chocolate;
+}
+}
+
+.packages-free-zero:hover,
+.packages-free-zero:active{
+    background-color: darkgreen;
+    color: white;
+}
+
+.packages-premium-plan{
+    border: 2px solid darkgreen;
+    margin-right: 5rem;
+    background-color: darkgoldenrod;
+    line-height: 2rem;
+    border-left: none;
+}
+
+@media(min-width:24.125rem){
+    .packages-premium-plan{
+        margin-right: 25rem;
+        background-color: fuchsia;
+    }
+}
+
+.packages-premium-heading{
+    color: darkgreen;
+    font-size: 2rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-premium-heading{
+        margin-left: 3rem;
+    }
+}
+
+.packages-guaranteed-host{
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-guaranteed-host{
+        margin-left: 3rem;
+    }
+}
+
+.packages-premium-enjoy{
+    background-color: white;
+    border: 2px solid white;
+    color: darkgreen;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+@media(min-width:24.125rem){
+    .packages-premium-enjoy{
+        margin-left: 3rem;
+        margin-right: 5rem;
+    }
+}
+
+.packages-premium-plan:hover,
+.packages-premium-plan:active{
+    background-color: chartreuse;
+    border-color: darksalmon;
+}
+
+@media(min-width:24.125rem){
+    .packages-premium-plan:hover,
+    .packages-premium-plan:active{
+        background-color: hotpink;
+        border-color: aquamarine;
+    }
+}
+
+.packages-premium-enjoy:hover,
+.packages-premium-enjoy:active{
+    background-color: darkgreen;
+    color: white;
+}
+
+
+.footer-plan{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media(min-width:24.125rem){
+    .footer-plan-div{
+        display: inline-block;
+        padding-left: 5rem;
+    }
+}
